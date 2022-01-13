@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <script src="script.js"></script>     
+    </head>
+    <body>
+       
+		<form name="test" method="post" action="input1.php">
+
+                <label class="labels" for="inputIP1">Введите первый ip-адрес</label>
+                <input id="inputIP1" type="text" class="inputs inputField">
+                    
+                <label class="labels" for="inputIP2">Введите второй ip-адрес</label>
+                <input id="inputIP2" type="text" class="inputs inputField">
+          
+        <button class="info-form active" onclick="ip_range(inputIP1.value, inputIP2.value)">Рассчитать</button>
+      
+		</form>
+        
+    </body>
+</html>
